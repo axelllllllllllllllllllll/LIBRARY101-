@@ -1,0 +1,173 @@
+
+/*universal selector*/
+*{
+    font-family: monospace;
+}
+
+/*body color*/
+body{
+    background-color: whitesmoke;
+}
+
+/*header design*/ 
+#header{
+    justify-content: center;
+    display: flex;
+    background-color: #84c1dd57;
+    width: 100%;
+    padding: none;
+    margin-bottom: 20px;
+}
+
+/* descendant selector */
+nav a{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+/*type selector*/
+a{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    
+}
+
+/* id selector */
+#banner{
+    padding: auto;
+    display: flex;
+    background-image: url(bglibrary.jpg);
+    justify-content: center;
+}
+
+/* class selector */
+.banner{
+    padding: 50px;
+    color: antiquewhite;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* class selector */
+.ourshelf{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* type selector */
+img{
+    margin-top: 20px;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+/* grouping selector */
+#top-liners, .fiction-section, .non-fiction-section, .others-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 25px;
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* grouping selector */
+.top-liners-box, .fiction-box, .non-fiction-box, .others-box{
+    background-color: #84c1dd;
+    color: black;
+    flex: 0.5;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+/* grouping selector */
+#fiction-section, #non-fiction-section, #others-section, .catalogs{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+/* class selector */
+.books-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 25px;
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* class selector */
+.book-box{
+    background-color: rgba(100, 148, 237, 0.075);
+    color: black;
+    flex: 0.5;
+    padding: 20px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* class selector */
+.cover{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+}
+
+/* attribute selector */
+footer[class]{
+    background-color: #84c1dd;
+    display: flex;
+}
+
+/* child selector */
+div > h1#aboutus,#contactus{
+    display: flex;
+    text-align: left;
+    font-size: 40px;
+    margin: 20px;
+}
+
+/* child selector */
+div > p#aboutus{
+    display: flex;
+    margin: 20px;
+    text-align: justify;
+    font-size: large;
+}
+
+/* child selector */
+div > .contactus{
+    display: flex;
+}
+
+/* child selector */
+div > .logos{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
